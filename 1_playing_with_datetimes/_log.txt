@@ -1,0 +1,3 @@
+Day 1: Watched videos about using date, datetime, and timedelta
+Day 2: Code Challenge - Parsing Dates from Logs (https://codechalleng.es/bites/7/)
+Day 3: Project - Pomodoro Timer using only datetime
