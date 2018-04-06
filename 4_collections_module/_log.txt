@@ -1,0 +1,5 @@
+https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/04-06-collections
+
+Day 1: Watched videos about 'collections' module - NamedTuple, defaultdict, Counter, deque
+Day 2: Code Challenge - Highest Rated Movie Directors (https://pybit.es/codechallenge13.html)
+Day 3:
