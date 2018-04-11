@@ -2,4 +2,5 @@ https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/
 
 Day 1: Watched videos about 'collections' module - NamedTuple, defaultdict, Counter, deque
 Day 2: Code Challenge - Highest Rated Movie Directors (https://pybit.es/codechallenge13.html)
-Day 3:
+Day 3: Worked w/ BrightPlanet's (my workplace) document REST API. Tried applying a defaultdict to as the main results
+datatype, but reverted to a normal dictionary instead after descending into de-bugging hell.
