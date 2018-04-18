@@ -1,5 +1,5 @@
 https://github.com/mikeckennedy/100daysofcode-with-python-course/tree/master/days/07-09-data-structures
 
 Day 1: Watched videos about lists, tuples, and dictionaries
-Day 2:
-Day 3:
+Day 2: PyBites Exercise #21 - Querying Nested Data Structures  (https://codechalleng.es/bites/21/)
+Day 3: Create a script that imports the US States data structures. Perform tasks on the list and dictionary.
