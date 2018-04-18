@@ -1,0 +1,5 @@
+https://github.com/mikeckennedy/100daysofcode-with-python-course/tree/master/days/10-12-pytest
+
+Day 1: Pytest video lectures
+Day 2: Code Challenge - Writing Tests with Pytest (https://codechalleng.es/challenges/39/)
+Day 3: Write a fixture
