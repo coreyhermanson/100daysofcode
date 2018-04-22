@@ -62,3 +62,33 @@ def test_validate_guess(capfd):
     assert game._validate_guess(2)
     out, _ = capfd.readouterr()
     assert out.rstrip() == '2 is correct!'
+
+
+@patch('builtins.input', side_effect=[4, 22, 9, 4, 6, ])
+def test_game_win(inp, capfd):
+    game = Game()
+    game._answer = 6
+
+    game()
+    assert game._win is True
+
+    out = capfd.readouterr()[0]
+    expected = [
+        '4 is too low', 'Number not in range',
+        '9 is too high', 'Already guessed',
+        '6 is correct!', 'It took you 3 guesses',
+    ]
+
+    output = [line.strip() for line in out.split('\n') if line.strip()]
+
+    for line, exp in zip(output, expected):
+        assert line == exp
+
+
+@patch('builtins.input', side_effect=[None, 5, 9, 14, 11, 12, ])
+def test_game_lose(inp, capfd):
+    game = Game()
+    game._answer = 13
+
+    game()
+    assert game._win is False
