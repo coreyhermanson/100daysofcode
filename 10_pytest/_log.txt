@@ -2,4 +2,5 @@ https://github.com/mikeckennedy/100daysofcode-with-python-course/tree/master/day
 
 Day 1: Pytest video lectures (write tests for "Guess the Number", TDD for FizzBuzz)
 Day 2: Code Challenge - Writing Tests with Pytest (https://codechalleng.es/challenges/39/)
-Day 3: Write a fixture
+Day 3: Write a fixture - wrote a fixture for BrightPlanet API to create the search instance class once in a conftest.py
+       file, then passed it as argument to tests
