@@ -1,5 +1,5 @@
 https://github.com/talkpython/100daysofcode-with-python-course/tree/master/days/13-15-text-games
 
 Day 13: Watched videos on text games using classes
-Day 14: Code Challenge - NAMEOFCHALLENGE (https://codechalleng.es/bites/7/)
-Day 15: Project -
+Day 14: Build Rock Paper Scissors game
+Day 15: Continue Rock Paper Scissors game
